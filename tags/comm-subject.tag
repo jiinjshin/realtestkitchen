@@ -1,13 +1,20 @@
 <comm-subject>
 
-<script>
+    <h1>Subjects</h1>
+    <div class="row">
+        <div class="col-md-4">col 1</div>
+        <div class="col-md-4">col 2</div>
+        <div class="col-md-4">col 3</div>
+    </div>
 
-</script>
+    <script>
 
-<style>
-  :scope{
+    </script>
 
-  }
-</style>
+    <style>
+        :scope {
+            }
+
+    </style>
 
 </comm-subject>

@@ -1,4 +1,4 @@
-<func>
+<play-function>
     <h1>
         { name }
     </h1>
@@ -45,4 +45,4 @@
 
     </style>
 
-</func>
+</play-function>

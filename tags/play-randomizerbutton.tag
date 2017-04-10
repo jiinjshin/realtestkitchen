@@ -1,14 +1,14 @@
-<randomizerbutton>
+<play-randomizerbutton>
 
     <button type="button" class="drawButton" onclick={ pickCards }>
         { name }
     </button>
 
-    <shape></shape>
-    <context></context>
-    <func></func>
-    <cheese></cheese>
-    <timer></timer>
+    <play-shape></play-shape>
+    <play-context></play-context>
+    <play-function></play-function>
+    <play-cheese></play-cheese>
+    <play-timer></play-timer>
 
     <script>
 
@@ -50,4 +50,4 @@
 
     </style>
 
-</randomizerbutton>
+</play-randomizerbutton>

@@ -1,4 +1,4 @@
-<context>
+<play-context>
 
     <div>
         <h1> { name } </h1>
@@ -42,4 +42,4 @@
         }
     </style>
 
-</context>
+</play-context>

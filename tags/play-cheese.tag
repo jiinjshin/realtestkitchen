@@ -1,4 +1,4 @@
-<cheese>
+<play-cheese>
 
   <div>
     <h1>
@@ -50,4 +50,4 @@
 
     </style>
 
-</cheese>
+</play-cheese>

@@ -1,4 +1,4 @@
-<shape>
+<play-shape>
     <h1>
         { name }
     </h1>
@@ -46,4 +46,4 @@
 
     </style>
 
-</shape>
+</play-shape>

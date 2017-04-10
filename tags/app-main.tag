@@ -1,4 +1,4 @@
-<nav>
+<app-main>
 
 <script>
 
@@ -10,4 +10,4 @@
   }
 </style>
 
-</nav>
+</app-main>

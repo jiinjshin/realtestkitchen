@@ -1,5 +1,8 @@
 <help-faq>
 
+<div>
+  <p>test faq</p>
+</div>
 <script>
 
 </script>
