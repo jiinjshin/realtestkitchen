@@ -1,8 +1,5 @@
-<help-faq>
+<comm-saved>
 
-<div>
-  <p> test help
-</div>
 <script>
 
 </script>
@@ -13,4 +10,4 @@
   }
 </style>
 
-</help-faq>
+</comm-saved>
