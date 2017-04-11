@@ -1,58 +1,62 @@
 <comm>
 
     <nav>
-        <a each={ data } href="#{ id }">{ title }</a>
+        <!-- <a each={ data } href="#{ id }" onclick={ mountFeat(); }>{ title }</a> -->
+        <a href="#featured">Featured Decks</a>
+        <a href="#grade">Grade Level</a>
+        <a href="#subject">Subject</a>
+        <a href="#saved">Saved Decks</a>
+
     </nav>
 
-    <comm-feat></comm-feat>
-    <comm-grade></comm-grade>
-    <comm-subject></comm-subject>
-    <comm-saved></comm-saved>
+    <comm-feat if={ page === 'featured' }></comm-feat>
+    <comm-grade if={ page === 'grade' }></comm-grade>
+    <comm-subject if={ page === 'subject' }></comm-subject>
+    <comm-saved if={ page === 'saved' }></comm-saved>
 
     <article>
-        <h1>{ page.title || 'Not found' }</h1>
-        <p>{ page.body || 'Specified id is not found.' }</p>
+        <!-- <h1>{ page.title || 'Not found' }</h1>
+        <p>{ page.body || 'Specified id is not found.' }</p> -->
     </article>
 
     <script>
-        // function mountFeat(){   // riot.unmount('comm-grade', 'comm-subject', 'comm-saved');   // comm-grade.unmount();   // riot.mount('comm-feat'); }
 
-
-        var tagsFeat = riot.mount('comm-feat');
-        var tagsGrade = riot.mount('comm-grade');
-        var tagsSubject = riot.mount('comm-subject');
-        var tagsSaved = riot.mount('comm-saved');
-
-
-        var self = this
-        self.data = [
-            {
-                id: "",
-                title: "Featured Decks",
-                body: tagsFeat
-            }, {
-                id: "1",
-                title: "Grade Level",
-                body: tagsGrade
-            }, {
-                id: "2",
-                title: "Subject",
-                body: tagsSubject
-            }, {
-                id: "3",
-                title: "Saved Decks",
-                body: tagsSaved
-            }
-
-        ]
-        self.page = self.data[0]
+        var that = this;
+        // that.data = [
+        //     {
+        //         id: "",
+        //         title: "Featured Decks",
+        //         body: "hello"
+        //     }, {
+        //         id: "1",
+        //         title: "Grade Level",
+        //         body: "tagsGrade"
+        //     }, {
+        //         id: "2",
+        //         title: "Subject",
+        //        body: "tagsSubject"
+        //  }, {
+        //         id: "3",
+        //         title: "Saved Decks",
+        //         body: "tagsSaved"
+        //  }
+        //
+        // ];
+        // that.page = that.data[0];
 
         route(function (id) {
-            self.page = self.data.filter(function (r) {
-                return r.id == id
-            })[0] || {}
-            self.update()
-        })
+            // that.page = that.data.filter(function (r) {
+            //     return r.id == id
+            // })[0] || {}
+            // that.update();
+            console.log('ROUTE', id);
+            that.page = id;
+            that.update();
+        });
+
+        this.on('update', function(){
+          console.log(this.page);
+        });
     </script>
 
     <style>
