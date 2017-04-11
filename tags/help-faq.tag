@@ -1,7 +1,7 @@
 <help-faq>
 
 <div>
-  <p> test help
+  <p>test faq</p>
 </div>
 <script>
 

@@ -1,4 +1,4 @@
-<timer>
+<play-timer>
 
     <p>Seconds Remaining: { time }</p>
     <p>{ timerdone }</p>
@@ -31,4 +31,4 @@
             }
 
     </style>
-</timer>
+</play-timer>

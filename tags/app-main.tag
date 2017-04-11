@@ -1,9 +1,6 @@
-<comm-grade>
-
-  <h1>Grade Level</h1>
+<app-main>
 
 <script>
-
 
 </script>
 
@@ -13,4 +10,4 @@
   }
 </style>
 
-</comm-grade>
+</app-main>
