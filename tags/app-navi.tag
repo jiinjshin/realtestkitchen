@@ -1,18 +1,39 @@
 <app-navi>
 
-  <play></play>
-  <comm></comm>
-  <search></search>
-  <help></help>
+    <nav>
+        <a href="#play">Play</a>
+        <a href="#comm">Community</a>
+        <a href="#search">Search</a>
+        <a href="#help">Help</a>
+    </nav>
 
-<script>
+    <play if={ page==='play' }></play>
+    <comm if={ page==='comm' }></comm>
+    <search if={ page==='search' }></search>
+    <help if={ page==='help' }></help>
 
-</script>
+    <!-- route filter stuff -->
 
-<style>
-  :scope{
+    <script>
 
-  }
-</style>
+        var that = this;
+
+        route(function (id) {
+
+            console.log('ROUTE', id);
+            that.page = id;
+            that.update();
+        });
+
+        this.on('update', function () {
+            console.log(this.page);
+        });
+    </script>
+
+    <style>
+        :scope {
+            }
+
+    </style>
 
 </app-navi>

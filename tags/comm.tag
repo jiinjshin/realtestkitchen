@@ -1,12 +1,10 @@
 <comm>
 
     <nav>
-        <!-- <a each={ data } href="#{ id }" onclick={ mountFeat(); }>{ title }</a> -->
         <a href="#featured">Featured Decks</a>
         <a href="#grade">Grade Level</a>
         <a href="#subject">Subject</a>
         <a href="#saved">Saved Decks</a>
-
     </nav>
 
     <comm-feat if={ page === 'featured' }></comm-feat>
@@ -14,10 +12,10 @@
     <comm-subject if={ page === 'subject' }></comm-subject>
     <comm-saved if={ page === 'saved' }></comm-saved>
 
-    <article>
-        <!-- <h1>{ page.title || 'Not found' }</h1>
-        <p>{ page.body || 'Specified id is not found.' }</p> -->
-    </article>
+    <!-- <article>
+        <h1>{ page.title || 'Not found' }</h1>
+        <p>{ page.body || 'Specified id is not found.' }</p>
+    </article> -->
 
     <script>
 
@@ -51,12 +49,12 @@
             // that.update();
             console.log('ROUTE', id);
             that.page = id;
-            that.update();
+            // that.update();
         });
-
-        this.on('update', function(){
-          console.log(this.page);
-        });
+        //
+        // this.on('update', function(){
+        //   console.log(this.page);
+        // });
     </script>
 
     <style>
