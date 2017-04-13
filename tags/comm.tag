@@ -1,60 +1,41 @@
 <comm>
 
-    <nav>
-        <a href="#featured">Featured Decks</a>
-        <a href="#grade">Grade Level</a>
-        <a href="#subject">Subject</a>
-        <a href="#saved">Saved Decks</a>
-    </nav>
+<comm-subnav></comm-subnav>
 
-    <comm-feat if={ page === 'featured' }></comm-feat>
-    <comm-grade if={ page === 'grade' }></comm-grade>
-    <comm-subject if={ page === 'subject' }></comm-subject>
-    <comm-saved if={ page === 'saved' }></comm-saved>
-
-    <!-- <article>
-        <h1>{ page.title || 'Not found' }</h1>
-        <p>{ page.body || 'Specified id is not found.' }</p>
-    </article> -->
+    <comm-feat if={ subpage === 'featured' }></comm-feat>
+    <comm-grade if={ subpage === 'grade' }></comm-grade>
+    <comm-subject if={ subpage === 'subject' }></comm-subject>
+    <comm-saved if={ subpage === 'saved' }></comm-saved>
+    <p if={ !subpage }><strong>NO SUBPAGE</strong></p>
 
     <script>
 
-        var that = this;
-        // that.data = [
-        //     {
-        //         id: "",
-        //         title: "Featured Decks",
-        //         body: "hello"
-        //     }, {
-        //         id: "1",
-        //         title: "Grade Level",
-        //         body: "tagsGrade"
-        //     }, {
-        //         id: "2",
-        //         title: "Subject",
-        //        body: "tagsSubject"
-        //  }, {
-        //         id: "3",
-        //         title: "Saved Decks",
-        //         body: "tagsSaved"
-        //  }
-        //
-        // ];
-        // that.page = that.data[0];
+    var that = this;
+    console.log('comm.tag');
 
-        route(function (id) {
-            // that.page = that.data.filter(function (r) {
-            //     return r.id == id
-            // })[0] || {}
-            // that.update();
-            console.log('ROUTE', id);
-            that.page = id;
-            // that.update();
+    this.subpage = "comm";
+
+    var subRoute = route.create();
+        subRoute('comm/*', function(subpage) {
+          console.log(subpage);
+          that.subpage = subpage;
+          that.update();
         });
-        //
-        // this.on('update', function(){
-        //   console.log(this.page);
-        // });
+        subRoute('comm', function(subpage){
+          that.subpage = "featured";
+          that.update();
+        });
+
+    this.on('mount', function(){
+      route.exec();
+    });
+
+    // Since this page-b is unmounted often, you need to STOP this subRoute
+    // when you unmount page-b. Otherwise, the subroute still exists, listens,
+    // and the next time you open up page-b - things get weird.
+    this.on('unmount', function() {
+      subRoute.stop();
+    });
     </script>
 
     <style>
@@ -68,8 +49,8 @@
         }
         nav {
             display: block;
-            border-bottom: 1px solid #666;
             padding: 0 0 1em;
+
         }
         nav > a {
             display: inline-block;
@@ -77,6 +58,9 @@
         }
         nav > a:not(:first-child) {
             border-left: 1px solid #eee;
+        }
+        nav a:not(:last-child) {
+            margin-right: 1px;
         }
 
     </style>

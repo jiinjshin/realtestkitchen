@@ -16,24 +16,47 @@
 
     <script>
 
-        var that = this;
+    var that = this;
+    console.log('app-navi.tag');
 
-        route(function (id) {
+    this.page = "play"; // Default page
 
-            console.log('ROUTE', id);
-            that.page = id;
-            that.update();
+    var appRoute = route.create();
+        appRoute('*/..', function(page, subpage){
+          that.page = page;
+        });
+        appRoute('*', function(page) {
+          that.page = page;
+          that.update();
         });
 
-        this.on('update', function () {
-            console.log(this.page);
-        });
+    route.start(true);
+
     </script>
 
     <style>
-        :scope {
-            }
-
+    :scope {
+        display: block;
+    }
+    nav {
+        display: flex;
+    }
+    nav a {
+        width: 33.33333333%;
+        display: block;
+        background-color: white;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        text-align: center;
+    }
+    nav a:not(:last-child) {
+        margin-right: 1px;
+    }
+    nav a:hover {
+        background-color: oldlace;
+    }
     </style>
 
 </app-navi>

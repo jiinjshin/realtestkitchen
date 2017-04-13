@@ -1,16 +1,18 @@
 <help-faq>
 
-<div>
-  <p>test faq</p>
-</div>
-<script>
+    <div>
+        <p>do you have a question????</p>
+        <p>we will have answers here wahoo!</p>
+    </div>
 
-</script>
+    <script>
 
-<style>
-  :scope{
+    </script>
 
-  }
-</style>
+    <style>
+        :scope {
+            }
+
+    </style>
 
 </help-faq>
