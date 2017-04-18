@@ -19,21 +19,13 @@
       <div class="item active">
         <img src="https://placehold.it/200x200" alt="...">
         <div class="carousel-caption">
-<<<<<<< HEAD
           1
-=======
-          ...
->>>>>>> amycyho/master
         </div>
       </div>
       <div class="item">
         <img src="https://placehold.it/200x200" alt="...">
         <div class="carousel-caption">
-<<<<<<< HEAD
           2
-=======
-          ...
->>>>>>> amycyho/master
         </div>
       </div>
       ...
