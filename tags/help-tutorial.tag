@@ -19,13 +19,13 @@
       <div class="item active">
         <img src="https://placehold.it/200x200" alt="...">
         <div class="carousel-caption">
-          ...
+          1
         </div>
       </div>
       <div class="item">
         <img src="https://placehold.it/200x200" alt="...">
         <div class="carousel-caption">
-          ...
+          2
         </div>
       </div>
       ...
