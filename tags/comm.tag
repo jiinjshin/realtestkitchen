@@ -1,58 +1,41 @@
 <comm>
 
-    <nav>
-        <a each={ data } href="#{ id }">{ title }</a>
-    </nav>
+<comm-subnav></comm-subnav>
 
-    <comm-feat></comm-feat>
-    <comm-grade></comm-grade>
-    <comm-subject></comm-subject>
-    <comm-saved></comm-saved>
-
-    <article>
-        <h1>{ page.title || 'Not found' }</h1>
-        <p>{ page.body || 'Specified id is not found.' }</p>
-    </article>
+    <comm-feat if={ subpage === 'featured' }></comm-feat>
+    <comm-grade if={ subpage === 'grade' }></comm-grade>
+    <comm-subject if={ subpage === 'subject' }></comm-subject>
+    <comm-saved if={ subpage === 'saved' }></comm-saved>
+    <p if={ !subpage }><strong>NO SUBPAGE</strong></p>
 
     <script>
-        // function mountFeat(){   // riot.unmount('comm-grade', 'comm-subject', 'comm-saved');   // comm-grade.unmount();   // riot.mount('comm-feat'); }
 
+    var that = this;
+    console.log('comm.tag');
 
-        var tagsFeat = riot.mount('comm-feat');
-        var tagsGrade = riot.mount('comm-grade');
-        var tagsSubject = riot.mount('comm-subject');
-        var tagsSaved = riot.mount('comm-saved');
+    this.subpage = "comm";
 
+    var subRoute = route.create();
+        subRoute('comm/*', function(subpage) {
+          console.log(subpage);
+          that.subpage = subpage;
+          that.update();
+        });
+        subRoute('comm', function(subpage){
+          that.subpage = "featured";
+          that.update();
+        });
 
-        var self = this
-        self.data = [
-            {
-                id: "",
-                title: "Featured Decks",
-                body: tagsFeat
-            }, {
-                id: "1",
-                title: "Grade Level",
-                body: tagsGrade
-            }, {
-                id: "2",
-                title: "Subject",
-                body: tagsSubject
-            }, {
-                id: "3",
-                title: "Saved Decks",
-                body: tagsSaved
-            }
+    this.on('mount', function(){
+      route.exec();
+    });
 
-        ]
-        self.page = self.data[0]
-
-        route(function (id) {
-            self.page = self.data.filter(function (r) {
-                return r.id == id
-            })[0] || {}
-            self.update()
-        })
+    // Since this page-b is unmounted often, you need to STOP this subRoute
+    // when you unmount page-b. Otherwise, the subroute still exists, listens,
+    // and the next time you open up page-b - things get weird.
+    this.on('unmount', function() {
+      subRoute.stop();
+    });
     </script>
 
     <style>
@@ -66,8 +49,8 @@
         }
         nav {
             display: block;
-            border-bottom: 1px solid #666;
             padding: 0 0 1em;
+
         }
         nav > a {
             display: inline-block;
@@ -75,6 +58,9 @@
         }
         nav > a:not(:first-child) {
             border-left: 1px solid #eee;
+        }
+        nav a:not(:last-child) {
+            margin-right: 1px;
         }
 
     </style>

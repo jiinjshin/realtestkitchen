@@ -5,11 +5,7 @@
 
 <script>
 
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> amycyho/master
 
 </script>
 
