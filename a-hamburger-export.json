@@ -1,0 +1,37 @@
+{
+  "cards" : {
+    "decks" : {
+      "featured" : {
+        "6th Grade Math" : "ghi"
+      },
+      "original" : {
+        "card1" : {
+          "author" : "original",
+          "content" : {
+            "image" : "url",
+            "text" : "Include your significant other"
+          },
+          "grade" : "middle",
+          "ingredient" : "context",
+          "subject" : "history"
+        }
+      },
+      "user-created" : {
+        "Ruth's History Deck!" : "abc"
+      }
+    }
+  },
+  "users" : {
+    "profile" : {
+      "profile1" : {
+        "grade" : "test",
+        "name" : "test",
+        "picture" : "test",
+        "subject" : "test"
+      }
+    },
+    "saved" : {
+      "dummydeck" : [ null, "card1", "card2" ]
+    }
+  }
+}
