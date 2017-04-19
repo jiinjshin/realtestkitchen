@@ -232,26 +232,28 @@
             "text" : "cylinder"
           },
           "grade" : "original",
-          "ingredient" : "context",
+          "ingredient" : "shape",
           "subject" : "original"
         },
 
         "card22" : {
           "author" : "original",
+          "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : ""
+            "text" : "One more round; get another turn!"
           },
           "grade" : "original",
           "ingredient" : "cheese",
-          "subject" : "original"
+          "subject" : "original",
         },
 
         "card23" : {
           "author" : "original",
+          "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Include your significant other"
+            "text" : "Steal a card for later."
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -260,9 +262,10 @@
 
         "card24" : {
           "author" : "original",
+          "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Include your significant other"
+            "text" : "Yes, this serves a purpose."
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -271,9 +274,10 @@
 
         "card25" : {
           "author" : "original",
+          "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Include your significant other"
+            "text" : "Block."
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -282,9 +286,10 @@
 
         "card26" : {
           "author" : "original",
+          "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Include your significant other"
+            "text" : "Yes, this is a novel idea."
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -293,9 +298,10 @@
 
         "card27" : {
           "author" : "original",
+          "chance" : false,
           "content" : {
             "image" : "url",
-            "text" : "Include your significant other"
+            "text" : "You cannot use words that start with the letter 'c.'"
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -304,45 +310,13 @@
 
         "card28" : {
           "author" : "original",
+          "chance" : false,
           "content" : {
             "image" : "url",
-            "text" : "Include your significant other"
+            "text" : "Include an item that you see around you."
           },
           "grade" : "original",
           "ingredient" : "cheese",
-          "subject" : "original"
-        },
-
-        "card29" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-          },
-          "grade" : "original",
-          "ingredient" : "cheese",
-          "subject" : "original"
-        },
-
-        "card30" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-          },
-          "grade" : "original",
-          "ingredient" : "cheese",
-          "subject" : "original"
-        },
-        
-        "card31" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-          },
-          "grade" : "original",
-          "ingredient" : "context",
           "subject" : "original"
         }
       },
