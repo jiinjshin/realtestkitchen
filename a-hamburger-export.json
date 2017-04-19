@@ -15,6 +15,10 @@
           "ingredient" : "context",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card2" : {
           "author" : "original",
           "content" : {
@@ -25,6 +29,10 @@
           "ingredient" : "context",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card3" : {
           "author" : "original",
           "content" : {
@@ -35,6 +43,10 @@
           "ingredient" : "context",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card4" : {
           "author" : "original",
           "content" : {
@@ -45,6 +57,10 @@
           "ingredient" : "context",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card5" : {
           "author" : "original",
           "content" : {
@@ -55,6 +71,10 @@
           "ingredient" : "context",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card6" : {
           "author" : "original",
           "content" : {
@@ -65,6 +85,10 @@
           "ingredient" : "context",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card7" : {
           "author" : "original",
           "content" : {
@@ -75,6 +99,10 @@
           "ingredient" : "context",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card8" : {
           "author" : "original",
           "content" : {
@@ -85,6 +113,10 @@
           "ingredient" : "function",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card9" : {
           "author" : "original",
           "content" : {
@@ -95,6 +127,10 @@
           "ingredient" : "function",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card10" : {
           "author" : "original",
           "content" : {
@@ -105,6 +141,10 @@
           "ingredient" : "function",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card11" : {
           "author" : "original",
           "content" : {
@@ -115,6 +155,10 @@
           "ingredient" : "function",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card12" : {
           "author" : "original",
           "content" : {
@@ -125,6 +169,10 @@
           "ingredient" : "function",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card13" : {
           "author" : "original",
           "content" : {
@@ -135,6 +183,10 @@
           "ingredient" : "function",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
           "card14" : {
           "author" : "original",
           "content" : {
@@ -145,6 +197,10 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card15" : {
           "author" : "original",
           "content" : {
@@ -155,6 +211,10 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card16" : {
           "author" : "original",
           "content" : {
@@ -165,6 +225,10 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card17" : {
           "author" : "original",
           "content" : {
@@ -175,6 +239,10 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card18" : {
           "author" : "original",
           "content" : {
@@ -185,6 +253,10 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card19" : {
           "author" : "original",
           "content" : {
@@ -195,6 +267,10 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card20" : {
           "author" : "original",
           "content" : {
@@ -205,6 +281,10 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
+<<<<<<< HEAD
+=======
+
+>>>>>>> amycyho/master
         "card21" : {
           "author" : "original",
           "content" : {
@@ -212,6 +292,7 @@
             "text" : "cylinder"
           },
           "grade" : "original",
+<<<<<<< HEAD
           "ingredient" : "context",
           "subject" : "original"
         },
@@ -230,51 +311,116 @@
           "content" : {
             "image" : "url",
             "text" : "Include your significant other"
+=======
+          "ingredient" : "shape",
+          "subject" : "original"
+        },
+
+        "card22" : {
+          "author" : "original",
+          "chance" : true,
+          "content" : {
+            "image" : "url",
+            "text" : "One more round; get another turn!"
+          },
+          "grade" : "original",
+          "ingredient" : "cheese",
+          "subject" : "original",
+        },
+
+        "card23" : {
+          "author" : "original",
+          "chance" : true,
+          "content" : {
+            "image" : "url",
+            "text" : "Steal a card for later."
+>>>>>>> amycyho/master
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
         },
+<<<<<<< HEAD
         "card24" : {
           "author" : "original",
           "content" : {
             "image" : "url",
             "text" : "Include your significant other"
+=======
+
+        "card24" : {
+          "author" : "original",
+          "chance" : true,
+          "content" : {
+            "image" : "url",
+            "text" : "Yes, this serves a purpose."
+>>>>>>> amycyho/master
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
         },
+<<<<<<< HEAD
         "card25" : {
           "author" : "original",
           "content" : {
             "image" : "url",
             "text" : "Include your significant other"
+=======
+
+        "card25" : {
+          "author" : "original",
+          "chance" : true,
+          "content" : {
+            "image" : "url",
+            "text" : "Block."
+>>>>>>> amycyho/master
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
         },
+<<<<<<< HEAD
         "card26" : {
           "author" : "original",
           "content" : {
             "image" : "url",
             "text" : "Include your significant other"
+=======
+
+        "card26" : {
+          "author" : "original",
+          "chance" : true,
+          "content" : {
+            "image" : "url",
+            "text" : "Yes, this is a novel idea."
+>>>>>>> amycyho/master
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
         },
+<<<<<<< HEAD
         "card27" : {
           "author" : "original",
           "content" : {
             "image" : "url",
             "text" : "Include your significant other"
+=======
+
+        "card27" : {
+          "author" : "original",
+          "chance" : false,
+          "content" : {
+            "image" : "url",
+            "text" : "You cannot use words that start with the letter 'c.'"
+>>>>>>> amycyho/master
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
         },
+<<<<<<< HEAD
         "card28" : {
           "author" : "original",
           "content" : {
@@ -290,10 +436,20 @@
           "content" : {
             "image" : "url",
             "text" : "Include your significant other"
+=======
+
+        "card28" : {
+          "author" : "original",
+          "chance" : false,
+          "content" : {
+            "image" : "url",
+            "text" : "Include an item that you see around you."
+>>>>>>> amycyho/master
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
+<<<<<<< HEAD
         },
         "card30" : {
           "author" : "original",
@@ -314,6 +470,8 @@
           "grade" : "original",
           "ingredient" : "context",
           "subject" : "original"
+=======
+>>>>>>> amycyho/master
         }
       },
       "user-created" : {
