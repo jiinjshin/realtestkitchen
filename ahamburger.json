@@ -253,7 +253,7 @@
           "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Steal a card for later."
+            "text" : "Steal a card for later"
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -265,7 +265,7 @@
           "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Yes, this serves a purpose."
+            "text" : "Yes, this serves a purpose"
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -277,7 +277,7 @@
           "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Block."
+            "text" : "Block"
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -289,7 +289,7 @@
           "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Yes, this is a novel idea."
+            "text" : "Yes, this is a novel idea"
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -301,7 +301,7 @@
           "chance" : false,
           "content" : {
             "image" : "url",
-            "text" : "You cannot use words that start with the letter 'c.'"
+            "text" : "You cannot use words that start with the letter 'c'"
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -313,7 +313,7 @@
           "chance" : false,
           "content" : {
             "image" : "url",
-            "text" : "Include an item that you see around you."
+            "text" : "Include an item that you see around you"
           },
           "grade" : "original",
           "ingredient" : "cheese",
@@ -335,7 +335,7 @@
       }
     },
     "saved" : {
-      "dummydeck" : [ null, "card1", "card2" ]
+      "dummydeck" : "card1"
     }
   }
 }
