@@ -1,57 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>A Hamburger</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Hamburger</title>
 
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<link href="https://fonts.googleapis.com/css?family=Bangers|Barrio|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Barrio|Open+Sans" rel="stylesheet">
 
 </head>
+
 <body>
 
-  <app-main></app-main>
-  <app-navi></app-navi>
+    <app-main></app-main>
+    <app-navi></app-navi>
 
-  <script src="tags/app-main.tag" type="riot/tag"></script>
-  <script src="tags/app-navi.tag" type="riot/tag"></script>
-
-  <script src="tags/comm.tag" type="riot/tag"></script>
-  <script src="tags/comm-subnav.tag" type="riot/tag"></script>
-  <script src="tags/comm-feat.tag" type="riot/tag"></script>
-  <script src="tags/comm-grade.tag" type="riot/tag"></script>
-  <script src="tags/comm-saved.tag" type="riot/tag"></script>
-  <script src="tags/comm-subject.tag" type="riot/tag"></script>
-
-  <script src="tags/help.tag" type="riot/tag"></script>
-  <script src="tags/help-subnav.tag" type="riot/tag"></script>
-  <script src="tags/help-tutorial.tag" type="riot/tag"></script>
-  <script src="tags/help-faq.tag" type="riot/tag"></script>
-
-  <script src="tags/search.tag" type="riot/tag"></script>
-
-  <script src="tags/play.tag" type="riot/tag"></script>
-  <script src="tags/play-randomizerbutton.tag" type="riot/tag"></script>
-  <script src="tags/play-cheese.tag" type="riot/tag"></script>
-  <script src="tags/play-context.tag" type="riot/tag"></script>
-  <script src="tags/play-function.tag" type="riot/tag"></script>
-  <script src="tags/play-shape.tag" type="riot/tag"></script>
-  <script src="tags/play-timer.tag" type="riot/tag"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCeQUtCDM6jsP5gGwxPRww8gu-0GM6YbsU",
+            authDomain: "a-hamburger.firebaseapp.com",
+            databaseURL: "https://a-hamburger.firebaseio.com",
+            projectId: "a-hamburger",
+            storageBucket: "a-hamburger.appspot.com",
+            messagingSenderId: "794322941743"
+        };
+        firebase.initializeApp(config);
+    </script>
 
 
-  <script src="https://cdn.jsdelivr.net/riot/3.0/riot+compiler.min.js"></script>
-  <script src="https://rawgit.com/riot/route/master/dist/route.min.js"></script>
+    <script src="tags/app-main.tag" type="riot/tag"></script>
+    <script src="tags/app-navi.tag" type="riot/tag"></script>
 
-  <script>
-    riot.compile(function() {
-        riot.mount('*')
-        route.start(true)
-      })
-  </script>
+    <script src="tags/comm.tag" type="riot/tag"></script>
+    <script src="tags/comm-subnav.tag" type="riot/tag"></script>
+    <script src="tags/comm-feat.tag" type="riot/tag"></script>
+    <script src="tags/comm-grade.tag" type="riot/tag"></script>
+    <script src="tags/comm-saved.tag" type="riot/tag"></script>
+    <script src="tags/comm-subject.tag" type="riot/tag"></script>
+
+    <script src="tags/help.tag" type="riot/tag"></script>
+    <script src="tags/help-subnav.tag" type="riot/tag"></script>
+    <script src="tags/help-tutorial.tag" type="riot/tag"></script>
+    <script src="tags/help-faq.tag" type="riot/tag"></script>
+
+    <script src="tags/search.tag" type="riot/tag"></script>
+
+    <script src="tags/play.tag" type="riot/tag"></script>
+    <script src="tags/play-randomizerbutton.tag" type="riot/tag"></script>
+    <script src="tags/play-cheese.tag" type="riot/tag"></script>
+    <script src="tags/play-context.tag" type="riot/tag"></script>
+    <script src="tags/play-function.tag" type="riot/tag"></script>
+    <script src="tags/play-shape.tag" type="riot/tag"></script>
+    <script src="tags/play-timer.tag" type="riot/tag"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/riot/3.0/riot+compiler.min.js"></script>
+    <script src="https://rawgit.com/riot/route/master/dist/route.min.js"></script>
+
+    <script>
+        riot.compile(function() {
+            riot.mount('*')
+            route.start(true)
+        })
+    </script>
 
 </body>
+
 </html>

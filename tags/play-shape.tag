@@ -10,6 +10,12 @@
         var that = this;
         this.name = "Shape"
 
+        var database = firebase.database();
+        var cardsRef = database.ref('cards');
+        var decksRef = cardsRef.ref('decks');
+        var originalRef = decksRef.ref('original');
+
+
         var shapeList = [
             "Circle",
             "Rectangle",
