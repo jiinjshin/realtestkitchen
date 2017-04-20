@@ -12,20 +12,37 @@
 
         var database = firebase.database();
         var cardsRef = database.ref('cards');
-        var decksRef = cardsRef.ref('decks');
-        var originalRef = decksRef.ref('original');
-
+        var decksRef = cardsRef.child('decks');
+        var originalRef = decksRef.child('original');
 
         var shapeList = [
-            "Circle",
-            "Rectangle",
-            "Triangle",
-            "Octagon",
-            "Trapezoid",
-            "Cube",
-            "Cylinder",
-            "Line"
+            // "Circle",
+            // "Rectangle",
+            // "Triangle",
+            // "Octagon",
+            // "Trapezoid",
+            // "Cube",
+            // "Cylinder",
+            // "Line"
         ];
+
+        this.allObjects = [];
+
+         var refList = [];
+         originalRef.orderByChild('ingredient').equalTo('shape').once('value',function(snapshot){
+          var data = snapshot.val();
+          for (var key in data) {
+            refList.push(data[key]);
+          }
+
+          console.log(refList);
+
+
+// push stuff from object into array
+// from this, push specifically the content.text into another array
+// this array will be used to pull data to randomize
+
+        });
 
         this.parent.on('squeak', function(e){
           that.chooseShape();
