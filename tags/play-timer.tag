@@ -3,6 +3,8 @@
     <p>Seconds Remaining: { time }</p>
     <p>{ timerdone }</p>
 
+    <button type="button" onclick={ resetTimer }>Reset</button>
+
     <script>
         this.time = opts.start || 60
         this.timerdone = "";
@@ -24,11 +26,17 @@
             clearInterval(timer)
         });
 
-        // add slider for on/off (mount/unmount) flash during last 5 seconds stop at 0 think about functionality for chance cards for adding time
-    </script>
-    <style>
-        :scope {
-            }
+        this.resetTimer = function() {
+          this.time = opts.start;
+        });
+        }
 
+    </script>
+
+    <style>
+      :scope {
+
+      }
     </style>
+
 </play-timer>

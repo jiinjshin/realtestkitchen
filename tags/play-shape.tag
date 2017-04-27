@@ -15,41 +15,31 @@
         var decksRef = cardsRef.child('decks');
         var originalRef = decksRef.child('original');
 
-        var shapeList = [
-            // "Circle",
-            // "Rectangle",
-            // "Triangle",
-            // "Octagon",
-            // "Trapezoid",
-            // "Cube",
-            // "Cylinder",
-            // "Line"
-        ];
+        this.shapeContentList = [];
+        var shapeList = []; // array of all shape card objects?
+        originalRef.orderByChild('ingredient').equalTo('shape').once('value', function (snapshot) {
+            var data = snapshot.val();
+            for (var key in data) {
+                shapeList.push(data[key]);
+            }
+            console.log(shapeList);
 
-        this.allObjects = [];
+            that.shapeContentList = shapeList.map(function(dataObj) {
+                console.log("thisone", dataObj);
+                return dataObj.content.text;
+            });
 
-         var refList = [];
-         originalRef.orderByChild('ingredient').equalTo('shape').once('value',function(snapshot){
-          var data = snapshot.val();
-          for (var key in data) {
-            refList.push(data[key]);
-          }
-
-          console.log(refList);
-
-
-// push stuff from object into array
-// from this, push specifically the content.text into another array
-// this array will be used to pull data to randomize
-
+            console.log(that.shapeContentList);
         });
 
-        this.parent.on('squeak', function(e){
-          that.chooseShape();
+         // use Math Random on the array push stuff from object into array from this, push specifically the content.text into another array this array will be used to pull data to randomize
+
+        this.parent.on('squeak', function (e) {
+            that.chooseShape();
         });
 
-        this.chooseShape = function() {
-            return this.chosenshape = shapeList[Math.floor(Math.random() * shapeList.length)];
+        this.chooseShape = function () {
+            this.chosenshape = that.shapeContentList[Math.floor(Math.random() * that.shapeContentList.length)];
         };
         this.chooseShape();
     </script>

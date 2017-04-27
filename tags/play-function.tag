@@ -7,25 +7,42 @@
     </h2>
 
     <script>
+
+
         var that = this;
         this.name = "Function"
 
-        var funcList = [
-            "For understanding",
-            "For eating",
-            "For justice",
-            "For happiness",
-            "For falling in love",
-            "For community",
-            "For longevity"
-        ];
+        var database = firebase.database();
+        var cardsRef = database.ref('cards');
+        var decksRef = cardsRef.child('decks');
+        var originalRef = decksRef.child('original');
 
-        this.parent.on('squeak', function(e){
-          that.chooseFunc();
+        this.funcContentList = [];
+        var funcList = []; // array of all shape card objects?
+        originalRef.orderByChild('ingredient').equalTo('function').once('value', function (snapshot) {
+            var data = snapshot.val();
+            for (var key in data) {
+                funcList.push(data[key]);
+            }
+            console.log(funcList);
+
+            that.funcContentList = funcList.map(function(dataObj) {
+                console.log("thisone", dataObj);
+                return dataObj.content.text;
+            });
+
+            console.log(that.funcContentList);
         });
 
-        this.chooseFunc = function() {
-            return this.chosenfunc = funcList[Math.floor(Math.random() * funcList.length)];
+
+         // use Math Random on the array push stuff from object into array from this, push specifically the content.text into another array this array will be used to pull data to randomize
+
+        this.parent.on('squeak', function (e) {
+            that.chooseFunc();
+        });
+
+        this.chooseFunc = function () {
+            this.chosenfunc = that.funcContentList[Math.floor(Math.random() * that.funcContentList.length)];
         };
         this.chooseFunc();
     </script>
