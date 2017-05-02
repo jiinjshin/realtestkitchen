@@ -22,14 +22,14 @@
             for (var key in data) {
                 contextList.push(data[key]);
             }
-            console.log(contextList);
+            // console.log(contextList);
 
             that.contextContentList = contextList.map(function(dataObj) {
-                console.log("thisone", dataObj);
+                // console.log("thisone", dataObj);
                 return dataObj.content.text;
             });
 
-            console.log(that.contextContentList);
+            // console.log(that.contextContentList);
         });
 
          // use Math Random on the array push stuff from object into array from this, push specifically the content.text into another array this array will be used to pull data to randomize

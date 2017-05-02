@@ -22,14 +22,14 @@
             for (var key in data) {
                 shapeList.push(data[key]);
             }
-            console.log(shapeList);
+            // console.log(shapeList);
 
             that.shapeContentList = shapeList.map(function(dataObj) {
-                console.log("thisone", dataObj);
+                // console.log("thisone", dataObj);
                 return dataObj.content.text;
             });
 
-            console.log(that.shapeContentList);
+            // console.log(that.shapeContentList);
         });
 
          // use Math Random on the array push stuff from object into array from this, push specifically the content.text into another array this array will be used to pull data to randomize

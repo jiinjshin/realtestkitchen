@@ -24,14 +24,14 @@
             for (var key in data) {
                 funcList.push(data[key]);
             }
-            console.log(funcList);
+            // console.log(funcList);
 
             that.funcContentList = funcList.map(function(dataObj) {
-                console.log("thisone", dataObj);
+                // console.log("thisone", dataObj);
                 return dataObj.content.text;
             });
 
-            console.log(that.funcContentList);
+            // console.log(that.funcContentList);
         });
 
 

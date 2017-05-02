@@ -5,19 +5,25 @@
         <a href="#comm">Community</a>
         <a href="#search">Search</a>
         <a href="#help">Help</a>
+        <a href="#login">Login</a>
+        <a href="#create">Create</a>
+        <a href="#profile">Profile</a>
     </nav>
 
     <play if={ page==='play' }></play>
     <comm if={ page==='comm' }></comm>
     <search if={ page==='search' }></search>
     <help if={ page==='help' }></help>
+    <login if={ page==='login'}></login>
+    <create if={ page==='create'}></create>
+    <profile if={ page==='profile'}></profile>
 
     <!-- route filter stuff -->
 
     <script>
 
     var that = this;
-    console.log('app-navi.tag');
+    // console.log('app-navi.tag');
 
     this.page = "play"; // Default page
 
