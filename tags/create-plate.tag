@@ -1,12 +1,5 @@
 <create-plate>
     <h1>plate</h1>
-    <!-- <ul id="sortable1" class="connectedSortable">
-        <li class="ui-state-default">Item 1</li>
-        <li class="ui-state-default">Item 2</li>
-        <li class="ui-state-default">Item 3</li>
-        <li class="ui-state-default">Item 4</li>
-        <li class="ui-state-default">Item 5</li>
-    </ul> -->
 
 		<div class="row">
 			<div class="col-sm-6">
@@ -25,15 +18,6 @@
 			</div>
 		</div>
 
-
-
-    <!-- <ul id="sortable2" class="connectedSortable">
-        <li class="ui-state-highlight">Item 1</li>
-        <li class="ui-state-highlight">Item 2</li>
-        <li class="ui-state-highlight">Item 3</li>
-        <li class="ui-state-highlight">Item 4</li>
-        <li class="ui-state-highlight">Item 5</li>
-    </ul> -->
     <script>
 			this.addToMyData = function(event){
 				console.log(event, event.item);
@@ -57,9 +41,6 @@
 
 				this.myData.splice(index, 1);
 			};
-        // $(function () {
-        //     $("#sortable1, #sortable2").sortable({connectWith: ".connectedSortable"}).disableSelection();
-        // });
 
 				// FIREBASE, grab some other data
 				this.otherData = [
@@ -79,33 +60,15 @@
 
 				this.myData = [];
 
-
     </script>
 
     <style>
         :scope {}
 
-        #sortable1,
-        #sortable2 {
-            border: 1px solid #eee;
-            width: 142px;
-            min-height: 20px;
-            list-style-type: none;
-            margin: 0;
-            padding: 5px 0 0;
-            float: left;
-            margin-right: 10px;
-        }
-        #sortable1 li,
-        #sortable2 li {
-            margin: 0 5px 5px;
-            padding: 5px;
-            font-size: 1.2em;
-            width: 120px;
-        }
-
 				.card {
 					background-color: tomato;
+          padding: 5px;
+          margin: 5px;
 					border: 1px solid #333;
 				}
 
