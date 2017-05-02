@@ -32,7 +32,6 @@
 
         this.startname = "Start";
 
-
         // this tick should be paused
 
 
@@ -59,6 +58,14 @@
         }
 
 
+
+        var timer;
+
+        this.startTimer = function () {
+          console.log('start timer');
+          timer = setInterval(this.tick, 1000);
+          that.update();
+        }
 
         this.on('unmount', function () {
             // clearInterval(timer)
