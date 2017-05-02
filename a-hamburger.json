@@ -2,7 +2,7 @@
   "cards" : {
     "decks" : {
       "featured" : {
-        "6th Grade Math" : "ghi"
+        "subject" : "6th grade math"
       },
       "original" : {
         "card1" : {
@@ -15,10 +15,6 @@
           "ingredient" : "context",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card2" : {
           "author" : "original",
           "content" : {
@@ -29,10 +25,6 @@
           "ingredient" : "context",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card3" : {
           "author" : "original",
           "content" : {
@@ -43,10 +35,6 @@
           "ingredient" : "context",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card4" : {
           "author" : "original",
           "content" : {
@@ -57,10 +45,6 @@
           "ingredient" : "context",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card5" : {
           "author" : "original",
           "content" : {
@@ -71,10 +55,6 @@
           "ingredient" : "context",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card6" : {
           "author" : "original",
           "content" : {
@@ -85,10 +65,6 @@
           "ingredient" : "context",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card7" : {
           "author" : "original",
           "content" : {
@@ -99,10 +75,6 @@
           "ingredient" : "context",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card8" : {
           "author" : "original",
           "content" : {
@@ -113,10 +85,6 @@
           "ingredient" : "function",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card9" : {
           "author" : "original",
           "content" : {
@@ -127,10 +95,6 @@
           "ingredient" : "function",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card10" : {
           "author" : "original",
           "content" : {
@@ -141,10 +105,6 @@
           "ingredient" : "function",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card11" : {
           "author" : "original",
           "content" : {
@@ -155,10 +115,6 @@
           "ingredient" : "function",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card12" : {
           "author" : "original",
           "content" : {
@@ -169,10 +125,6 @@
           "ingredient" : "function",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card13" : {
           "author" : "original",
           "content" : {
@@ -183,11 +135,7 @@
           "ingredient" : "function",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
-          "card14" : {
+        "card14" : {
           "author" : "original",
           "content" : {
             "image" : "url",
@@ -197,10 +145,6 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card15" : {
           "author" : "original",
           "content" : {
@@ -211,10 +155,6 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card16" : {
           "author" : "original",
           "content" : {
@@ -225,10 +165,6 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card17" : {
           "author" : "original",
           "content" : {
@@ -239,10 +175,6 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card18" : {
           "author" : "original",
           "content" : {
@@ -253,10 +185,6 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card19" : {
           "author" : "original",
           "content" : {
@@ -267,10 +195,6 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card20" : {
           "author" : "original",
           "content" : {
@@ -281,10 +205,6 @@
           "ingredient" : "shape",
           "subject" : "original"
         },
-<<<<<<< HEAD
-=======
-
->>>>>>> amycyho/master
         "card21" : {
           "author" : "original",
           "content" : {
@@ -292,30 +212,9 @@
             "text" : "cylinder"
           },
           "grade" : "original",
-<<<<<<< HEAD
-          "ingredient" : "context",
-          "subject" : "original"
-        },
-        "card22" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : ""
-          },
-          "grade" : "original",
-          "ingredient" : "cheese",
-          "subject" : "original"
-        },
-        "card23" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-=======
           "ingredient" : "shape",
           "subject" : "original"
         },
-
         "card22" : {
           "author" : "original",
           "chance" : true,
@@ -327,151 +226,71 @@
           "ingredient" : "cheese",
           "subject" : "original",
         },
-
         "card23" : {
           "author" : "original",
           "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Steal a card for later."
->>>>>>> amycyho/master
+            "text" : "Steal a card for later"
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
         },
-<<<<<<< HEAD
-        "card24" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-=======
-
         "card24" : {
           "author" : "original",
           "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Yes, this serves a purpose."
->>>>>>> amycyho/master
+            "text" : "Yes, this serves a purpose"
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
         },
-<<<<<<< HEAD
-        "card25" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-=======
-
         "card25" : {
           "author" : "original",
           "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Block."
->>>>>>> amycyho/master
+            "text" : "Block"
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
         },
-<<<<<<< HEAD
-        "card26" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-=======
-
         "card26" : {
           "author" : "original",
           "chance" : true,
           "content" : {
             "image" : "url",
-            "text" : "Yes, this is a novel idea."
->>>>>>> amycyho/master
+            "text" : "Yes, this is a novel idea"
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
         },
-<<<<<<< HEAD
-        "card27" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-=======
-
         "card27" : {
           "author" : "original",
           "chance" : false,
           "content" : {
             "image" : "url",
-            "text" : "You cannot use words that start with the letter 'c.'"
->>>>>>> amycyho/master
+            "text" : "You cannot use words that start with the letter 'c'"
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
         },
-<<<<<<< HEAD
-        "card28" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-          },
-          "grade" : "original",
-          "ingredient" : "cheese",
-          "subject" : "original"
-        },
-        "card29" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-=======
-
         "card28" : {
           "author" : "original",
           "chance" : false,
           "content" : {
             "image" : "url",
-            "text" : "Include an item that you see around you."
->>>>>>> amycyho/master
+            "text" : "Include an item that you see around you"
           },
           "grade" : "original",
           "ingredient" : "cheese",
           "subject" : "original"
-<<<<<<< HEAD
-        },
-        "card30" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-          },
-          "grade" : "original",
-          "ingredient" : "cheese",
-          "subject" : "original"
-        },
-        "card31" : {
-          "author" : "original",
-          "content" : {
-            "image" : "url",
-            "text" : "Include your significant other"
-          },
-          "grade" : "original",
-          "ingredient" : "context",
-          "subject" : "original"
-=======
->>>>>>> amycyho/master
         }
       },
       "user-created" : {
@@ -489,7 +308,7 @@
       }
     },
     "saved" : {
-      "dummydeck" : [ null, "card1", "card2" ]
+      "dummydeck" : "card1"
     }
   }
 }

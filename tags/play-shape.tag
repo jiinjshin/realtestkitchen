@@ -10,23 +10,36 @@
         var that = this;
         this.name = "Shape"
 
-        var shapeList = [
-            "Circle",
-            "Rectangle",
-            "Triangle",
-            "Octagon",
-            "Trapezoid",
-            "Cube",
-            "Cylinder",
-            "Line"
-        ];
+        var database = firebase.database();
+        var cardsRef = database.ref('cards');
+        var decksRef = cardsRef.child('decks');
+        var originalRef = decksRef.child('original');
 
-        this.parent.on('squeak', function(e){
-          that.chooseShape();
+        this.shapeContentList = [];
+        var shapeList = []; // array of all shape card objects?
+        originalRef.orderByChild('ingredient').equalTo('shape').once('value', function (snapshot) {
+            var data = snapshot.val();
+            for (var key in data) {
+                shapeList.push(data[key]);
+            }
+            // console.log(shapeList);
+
+            that.shapeContentList = shapeList.map(function(dataObj) {
+                // console.log("thisone", dataObj);
+                return dataObj.content.text;
+            });
+
+            // console.log(that.shapeContentList);
         });
 
-        this.chooseShape = function() {
-            return this.chosenshape = shapeList[Math.floor(Math.random() * shapeList.length)];
+         // use Math Random on the array push stuff from object into array from this, push specifically the content.text into another array this array will be used to pull data to randomize
+
+        this.parent.on('squeak', function (e) {
+            that.chooseShape();
+        });
+
+        this.chooseShape = function () {
+            this.chosenshape = that.shapeContentList[Math.floor(Math.random() * that.shapeContentList.length)];
         };
         this.chooseShape();
     </script>
