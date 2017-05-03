@@ -8,12 +8,16 @@
 
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-    
-    <!-- Add more? -->
     <ol class="carousel-indicators">
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
       <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="8"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -66,6 +70,13 @@
 
         </div>
       </div>
+      <!-- Ending Card? -->
+      <div class="item">
+        <img src="../images/diagram2.png" alt="...">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
     </div>
 
     <!-- Controls -->
@@ -106,18 +117,19 @@
   .carousel-inner{
     height: 500px;
   }
-  .carousel-inner .item{
-    position: relative;
-  }
+
   .glyphicon{
     color: red;
   }
-
-  <!-- Need to vertically align this... -->
+  
+  <!-- Do we need to vertically align this? -->
+  .carousel-inner .item{
+    <!-- position: relative; -->
+  }
   .carousel-inner img {
-    position: absolute;
+    <!-- position: absolute;
     top: 50%;
-    transform: translateY(50%);
+    transform: translateY(50%); -->
   }
 </style>
 
