@@ -55,7 +55,7 @@
         this.startTimer = function () {
             console.log('start timer');
             this.btnDisabled = true;
-            timer = setInterval(this.tick, 10);
+            timer = setInterval(this.tick, 1000);
             that.update();
         }
 

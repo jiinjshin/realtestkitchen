@@ -1,22 +1,23 @@
 <app-navi>
 
+  <button if={ !user } class="btn btn-success pull-right" onclick={ logIn }>LOGIN</button>
+  <button if={ user } class="btn btn-danger pull-right" onclick={ logOut }>LOGOUT</button>
+
     <nav>
         <a href="#play">Play</a>
         <a href="#comm">Community</a>
         <a href="#search">Search</a>
         <a href="#help">Help</a>
-        <a href="#login">Login</a>
-        <a href="#create">Create</a>
-        <a href="#profile">Profile</a>
+        <a href="#create" if={ user }>Create</a>
+        <a href="#profile" if={ user }>Profile</a>
     </nav>
 
     <play if={ page==='play' }></play>
     <comm if={ page==='comm' }></comm>
     <search if={ page==='search' }></search>
     <help if={ page==='help' }></help>
-    <login if={ page==='login'}></login>
-    <create if={ page==='create'}></create>
-    <profile if={ page==='profile'}></profile>
+    <create if={ user && page==='create'}></create>
+    <profile if={ user && page==='profile'}></profile>
 
     <!-- route filter stuff -->
 
@@ -37,6 +38,27 @@
         });
 
     route.start(true);
+
+    // authentication
+
+    this.user = firebase.auth().currentUser;
+
+    firebase.auth().onAuthStateChanged(function(userObj) {
+			that.user = firebase.auth().currentUser;
+			that.update();
+		});
+
+		logIn(event) {
+			// Specify that you want to sign up with Google authentication
+			var provider = new firebase.auth.GoogleAuthProvider();
+
+			// Popover signup is probably the most simple and trusted.
+			firebase.auth().signInWithPopup(provider);
+		}
+
+		logOut(event) {
+			firebase.auth().signOut();
+		}
 
     </script>
 

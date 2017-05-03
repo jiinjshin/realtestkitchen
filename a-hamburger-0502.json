@@ -1,0 +1,622 @@
+{
+    "all-cards": {
+        "shape": {
+          "card14": {
+              "author": "original",
+              "content": {
+                  "image": "url",
+                  "text": "line"
+              },
+              "grade": "original",
+              "ingredient": "shape",
+              "subject": "original"
+          },
+            "card15": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "circle"
+                },
+                "grade": "original",
+                "ingredient": "shape",
+                "subject": "original"
+            },
+            "card16": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "rectangle"
+                },
+                "grade": "original",
+                "ingredient": "shape",
+                "subject": "original"
+            },
+            "card17": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "triangle"
+                },
+                "grade": "original",
+                "ingredient": "shape",
+                "subject": "original"
+            },
+            "card18": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "octagon"
+                },
+                "grade": "original",
+                "ingredient": "shape",
+                "subject": "original"
+            },
+            "card19": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "trapezoid"
+                },
+                "grade": "original",
+                "ingredient": "shape",
+                "subject": "original"
+            },
+            "card20": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "cube"
+                },
+                "grade": "original",
+                "ingredient": "shape",
+                "subject": "original"
+            },
+            "card21": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "cylinder"
+                },
+                "grade": "original",
+                "ingredient": "shape",
+                "subject": "original"
+            }
+        },
+        "function": {
+            "card10": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "For justice"
+                },
+                "grade": "original",
+                "ingredient": "function",
+                "subject": "original"
+            },
+            "card11": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "For falling in love"
+                },
+                "grade": "original",
+                "ingredient": "function",
+                "subject": "original"
+            },
+            "card12": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "For community"
+                },
+                "grade": "original",
+                "ingredient": "function",
+                "subject": "original"
+            },
+            "card13": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "For longevity"
+                },
+                "grade": "original",
+                "ingredient": "function",
+                "subject": "original"
+              },
+              "card8": {
+                  "author": "original",
+                  "content": {
+                      "image": "url",
+                      "text": "For understanding"
+                  },
+                  "grade": "original",
+                  "ingredient": "function",
+                  "subject": "original"
+              },
+              "card9": {
+                  "author": "original",
+                  "content": {
+                      "image": "url",
+                      "text": "For eating"
+                  },
+                  "grade": "original",
+                  "ingredient": "function",
+                  "subject": "original"
+              }
+        },
+        "context": {
+            "card1": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "Include your significant other"
+                },
+                "grade": "middle",
+                "ingredient": "context",
+                "subject": "original"
+            },
+            "card2": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "In a Trump-led America"
+                },
+                "grade": "middle",
+                "ingredient": "context",
+                "subject": "original"
+            },
+            "card3": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "In a world with only women"
+                },
+                "grade": "original",
+                "ingredient": "context",
+                "subject": "original"
+            },
+            "card4": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "During a graduation ceremony"
+                },
+                "grade": "original",
+                "ingredient": "context",
+                "subject": "original"
+            },
+            "card5": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "Include your mother-in-law"
+                },
+                "grade": "original",
+                "ingredient": "context",
+                "subject": "original"
+            },
+            "card6": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "In a school"
+                },
+                "grade": "original",
+                "ingredient": "context",
+                "subject": "original"
+            },
+            "card7": {
+                "author": "original",
+                "content": {
+                    "image": "url",
+                    "text": "In a bar"
+                },
+                "grade": "original",
+                "ingredient": "context",
+                "subject": "original"
+            }
+        },
+        "cheese": {
+            "challenge": {
+                "card28": {
+                    "author": "original",
+                    "chance": false,
+                    "content": {
+                        "image": "url",
+                        "text": "Include an item that you see around you"
+                    },
+                    "grade": "original",
+                    "ingredient": "cheese",
+                    "subject": "original"
+                },
+                "card27": {
+                    "author": "original",
+                    "chance": false,
+                    "content": {
+                        "image": "url",
+                        "text": "You cannot use words that start with the letter 'c'"
+                    },
+                    "grade": "original",
+                    "ingredient": "cheese",
+                    "subject": "original"
+                }
+            },
+            "chance": {
+                "card24": {
+                    "author": "original",
+                    "chance": true,
+                    "content": {
+                        "image": "url",
+                        "text": "Yes, this serves a purpose"
+                    },
+                    "grade": "original",
+                    "ingredient": "cheese",
+                    "subject": "original"
+                },
+                "card22": {
+                    "author": "original",
+                    "chance": true,
+                    "content": {
+                        "image": "url",
+                        "text": "One more round; get another turn!"
+                    },
+                    "grade": "original",
+                    "ingredient": "cheese",
+                    "subject": "original"
+                },
+                "card23": {
+                    "author": "original",
+                    "chance": true,
+                    "content": {
+                        "image": "url",
+                        "text": "Steal a card for later"
+                    },
+                    "grade": "original",
+                    "ingredient": "cheese",
+                    "subject": "original"
+                },
+                "card25": {
+                    "author": "original",
+                    "chance": true,
+                    "content": {
+                        "image": "url",
+                        "text": "Block"
+                    },
+                    "grade": "original",
+                    "ingredient": "cheese",
+                    "subject": "original"
+                },
+                "card26": {
+                    "author": "original",
+                    "chance": true,
+                    "content": {
+                        "image": "url",
+                        "text": "Yes, this is a novel idea"
+                    },
+                    "grade": "original",
+                    "ingredient": "cheese",
+                    "subject": "original"
+                }
+            }
+          }
+        },
+        "cards": {
+            "decks": {
+                "featured": {
+                    "subject": "6th grade math"
+                },
+                "original": {
+                    "card1": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "Include your significant other"
+                        },
+                        "grade": "middle",
+                        "ingredient": "context",
+                        "subject": "original"
+                    },
+                    "card10": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "For justice"
+                        },
+                        "grade": "original",
+                        "ingredient": "function",
+                        "subject": "original"
+                    },
+                    "card11": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "For falling in love"
+                        },
+                        "grade": "original",
+                        "ingredient": "function",
+                        "subject": "original"
+                    },
+                    "card12": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "For community"
+                        },
+                        "grade": "original",
+                        "ingredient": "function",
+                        "subject": "original"
+                    },
+                    "card13": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "For longevity"
+                        },
+                        "grade": "original",
+                        "ingredient": "function",
+                        "subject": "original"
+                    },
+                    "card14": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "line"
+                        },
+                        "grade": "original",
+                        "ingredient": "shape",
+                        "subject": "original"
+                    },
+                    "card15": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "circle"
+                        },
+                        "grade": "original",
+                        "ingredient": "shape",
+                        "subject": "original"
+                    },
+                    "card16": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "rectangle"
+                        },
+                        "grade": "original",
+                        "ingredient": "shape",
+                        "subject": "original"
+                    },
+                    "card17": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "triangle"
+                        },
+                        "grade": "original",
+                        "ingredient": "shape",
+                        "subject": "original"
+                    },
+                    "card18": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "octagon"
+                        },
+                        "grade": "original",
+                        "ingredient": "shape",
+                        "subject": "original"
+                    },
+                    "card19": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "trapezoid"
+                        },
+                        "grade": "original",
+                        "ingredient": "shape",
+                        "subject": "original"
+                    },
+                    "card2": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "In a Trump-led America"
+                        },
+                        "grade": "middle",
+                        "ingredient": "context",
+                        "subject": "original"
+                    },
+                    "card20": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "cube"
+                        },
+                        "grade": "original",
+                        "ingredient": "shape",
+                        "subject": "original"
+                    },
+                    "card21": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "cylinder"
+                        },
+                        "grade": "original",
+                        "ingredient": "shape",
+                        "subject": "original"
+                    },
+                    "card22": {
+                        "author": "original",
+                        "chance": true,
+                        "content": {
+                            "image": "url",
+                            "text": "One more round; get another turn!"
+                        },
+                        "grade": "original",
+                        "ingredient": "cheese",
+                        "subject": "original"
+                    },
+                    "card23": {
+                        "author": "original",
+                        "chance": true,
+                        "content": {
+                            "image": "url",
+                            "text": "Steal a card for later"
+                        },
+                        "grade": "original",
+                        "ingredient": "cheese",
+                        "subject": "original"
+                    },
+                    "card24": {
+                        "author": "original",
+                        "chance": true,
+                        "content": {
+                            "image": "url",
+                            "text": "Yes, this serves a purpose"
+                        },
+                        "grade": "original",
+                        "ingredient": "cheese",
+                        "subject": "original"
+                    },
+                    "card25": {
+                        "author": "original",
+                        "chance": true,
+                        "content": {
+                            "image": "url",
+                            "text": "Block"
+                        },
+                        "grade": "original",
+                        "ingredient": "cheese",
+                        "subject": "original"
+                    },
+                    "card26": {
+                        "author": "original",
+                        "chance": true,
+                        "content": {
+                            "image": "url",
+                            "text": "Yes, this is a novel idea"
+                        },
+                        "grade": "original",
+                        "ingredient": "cheese",
+                        "subject": "original"
+                    },
+                    "card27": {
+                        "author": "original",
+                        "chance": false,
+                        "content": {
+                            "image": "url",
+                            "text": "You cannot use words that start with the letter 'c'"
+                        },
+                        "grade": "original",
+                        "ingredient": "cheese",
+                        "subject": "original"
+                    },
+                    "card28": {
+                        "author": "original",
+                        "chance": false,
+                        "content": {
+                            "image": "url",
+                            "text": "Include an item that you see around you"
+                        },
+                        "grade": "original",
+                        "ingredient": "cheese",
+                        "subject": "original"
+                    },
+                    "card3": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "In a world with only women"
+                        },
+                        "grade": "original",
+                        "ingredient": "context",
+                        "subject": "original"
+                    },
+                    "card4": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "During a graduation ceremony"
+                        },
+                        "grade": "original",
+                        "ingredient": "context",
+                        "subject": "original"
+                    },
+                    "card5": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "Include your mother-in-law"
+                        },
+                        "grade": "original",
+                        "ingredient": "context",
+                        "subject": "original"
+                    },
+                    "card6": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "In a school"
+                        },
+                        "grade": "original",
+                        "ingredient": "context",
+                        "subject": "original"
+                    },
+                    "card7": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "In a bar"
+                        },
+                        "grade": "original",
+                        "ingredient": "context",
+                        "subject": "original"
+                    },
+                    "card8": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "For understanding"
+                        },
+                        "grade": "original",
+                        "ingredient": "function",
+                        "subject": "original"
+                    },
+                    "card9": {
+                        "author": "original",
+                        "content": {
+                            "image": "url",
+                            "text": "For eating"
+                        },
+                        "grade": "original",
+                        "ingredient": "function",
+                        "subject": "original"
+                    }
+                },
+                "user-created": {
+                    "Ruth's History Deck!": "abc"
+                }
+            }
+        },
+        "mine": [{
+            "content": "Alpha",
+            "id": "k29459sfji3sb3"
+        }, {
+            "content": "Charlie",
+            "id": "k2945afdsafeso"
+        }],
+        "users": {
+            "profile": {
+                "profile1": {
+                    "grade": "test",
+                    "name": "test",
+                    "picture": "test",
+                    "subject": "test"
+                }
+            },
+            "saved": {
+                "dummydeck": "card1"
+            }
+        }
+    }

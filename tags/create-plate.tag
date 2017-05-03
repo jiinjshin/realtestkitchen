@@ -5,15 +5,19 @@
 			<div class="col-sm-6">
 
 				<div class="card" each={ otherData }>
-					{ id }: { content } { this }
-					<button onclick={ parent.addToMyData }>ADD</button>
+					{ id }: { content }
+					<button onclick={ parent.addToMyData }>+</button>
 				</div>
+        <div class="makeyourown">
+          <input type="text" name="Type Here" value="hello">
+          <button onclick={ parent.addToMyData }>+</button>
+        </div>
 
 			</div>
 			<div class="col-sm-6">
 				<div class="card" each={ myData }>
 					{ id }: { content }
-					<button onclick={ parent.removeFromMyData }>REMOVE</button>
+					<button onclick={ parent.removeFromMyData }>-</button>
 				</div>
 			</div>
 		</div>
