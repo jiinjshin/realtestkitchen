@@ -1,7 +1,7 @@
 <help-tutorial>
 
 <div>
-  <p> this is where we will tell people how to play the game wahoo easy tutorial for users!! </p>
+  <h1>Time to Make <span class = "aha">A Ha</span>mburger!</h1>
 </div>
 
 <div class="container">
@@ -12,20 +12,69 @@
       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
       <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="8"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://placehold.it/400x400" alt="...">
+        <img src="../images/diagram1.png" alt="...">
         <div class="carousel-caption">
-          1
+
         </div>
       </div>
       <div class="item">
-        <img src="https://placehold.it/400x400" alt="...">
+        <img src="../images/draw.png" alt="...">
         <div class="carousel-caption">
-          2
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="../images/ideate.png" alt="...">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="../images/judge.png" alt="...">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="../images/cheese.png" alt="...">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="../images/chance.png" alt="...">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="../images/challenge.png" alt="...">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+      <div class="item">
+        <img src="../images/diagram2.png" alt="...">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+      <!-- Ending Card? -->
+      <div class="item">
+        <img src="../images/diagram2.png" alt="...">
+        <div class="carousel-caption">
+
         </div>
       </div>
     </div>
@@ -46,8 +95,41 @@
 </script>
 
 <style>
-  :scope{
+  :scope {
 
+  }
+  h1 {
+    color: black;
+  }
+  .aha {
+    color: red;
+  }
+  .carousel-control.left{
+    background-image: none;
+  }
+  .carousel-control.right{
+    background-image: none;
+  }
+  .carousel{
+    width: 100%;
+    margin-top: 50px;
+  }
+  .carousel-inner{
+    height: 500px;
+  }
+
+  .glyphicon{
+    color: red;
+  }
+  
+  <!-- Do we need to vertically align this? -->
+  .carousel-inner .item{
+    <!-- position: relative; -->
+  }
+  .carousel-inner img {
+    <!-- position: absolute;
+    top: 50%;
+    transform: translateY(50%); -->
   }
 </style>
 

@@ -9,8 +9,14 @@
 					<button onclick={ parent.addToMyData }>+</button>
 				</div>
         <div class="makeyourown">
+<<<<<<< HEAD
           <input type="text" name="Type Here" value="hello">
           <button onclick={ parent.addToMyData }>+</button>
+=======
+          <input type="text" name="" value="hello">
+          <button onclick={  }>+</button>
+
+>>>>>>> amycyho/master
         </div>
 
 			</div>
